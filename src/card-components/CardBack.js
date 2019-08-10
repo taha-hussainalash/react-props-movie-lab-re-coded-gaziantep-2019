@@ -26,6 +26,7 @@ export default class CardBack extends Component {
         { this.generateRatingElement() }
         <span />
         <h5 className="genres">{this.props.genres.join(', ')}</h5>
+        <img src={this.props.poster} alt="poster"/>
       </div>
     )
   }
